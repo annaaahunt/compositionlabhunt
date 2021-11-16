@@ -10,7 +10,7 @@ namespace compositionlabhunt
         {
             this.isbn="12243";
             this.title="My Book, Your Book";
-            this.author = myAuthor;
+            this.author = author;
         }
 
         public string GetIsbn()
