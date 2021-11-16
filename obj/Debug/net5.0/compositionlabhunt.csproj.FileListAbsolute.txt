@@ -1,0 +1,15 @@
+/Users/ahunt/source/repos/compositionlabhunt/bin/Debug/net5.0/compositionlabhunt.deps.json
+/Users/ahunt/source/repos/compositionlabhunt/bin/Debug/net5.0/compositionlabhunt.runtimeconfig.json
+/Users/ahunt/source/repos/compositionlabhunt/bin/Debug/net5.0/compositionlabhunt.runtimeconfig.dev.json
+/Users/ahunt/source/repos/compositionlabhunt/bin/Debug/net5.0/compositionlabhunt.dll
+/Users/ahunt/source/repos/compositionlabhunt/bin/Debug/net5.0/ref/compositionlabhunt.dll
+/Users/ahunt/source/repos/compositionlabhunt/bin/Debug/net5.0/compositionlabhunt.pdb
+/Users/ahunt/source/repos/compositionlabhunt/obj/Debug/net5.0/compositionlabhunt.csproj.AssemblyReference.cache
+/Users/ahunt/source/repos/compositionlabhunt/obj/Debug/net5.0/compositionlabhunt.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ahunt/source/repos/compositionlabhunt/obj/Debug/net5.0/compositionlabhunt.AssemblyInfoInputs.cache
+/Users/ahunt/source/repos/compositionlabhunt/obj/Debug/net5.0/compositionlabhunt.AssemblyInfo.cs
+/Users/ahunt/source/repos/compositionlabhunt/obj/Debug/net5.0/compositionlabhunt.csproj.CoreCompileInputs.cache
+/Users/ahunt/source/repos/compositionlabhunt/obj/Debug/net5.0/compositionlabhunt.dll
+/Users/ahunt/source/repos/compositionlabhunt/obj/Debug/net5.0/ref/compositionlabhunt.dll
+/Users/ahunt/source/repos/compositionlabhunt/obj/Debug/net5.0/compositionlabhunt.pdb
+/Users/ahunt/source/repos/compositionlabhunt/obj/Debug/net5.0/compositionlabhunt.genruntimeconfig.cache
