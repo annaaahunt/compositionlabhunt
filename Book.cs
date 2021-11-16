@@ -8,9 +8,9 @@ namespace compositionlabhunt
 
         public Book(string tempIsbn, string temptitle, Author tempAuthor)
         {
-            this.isbn=isbn;
-            this.title=title;
-            this.author=author;
+            this.isbn="12243";
+            this.title="My Book, Your Book";
+            this.author = myAuthor;
         }
 
         public string GetIsbn()
@@ -40,10 +40,9 @@ namespace compositionlabhunt
 
         public override string ToString()
         {
-            return isbn;
-            return title;
+            return "isbn= " + isbn;
+            return "title= " + title;
             return author.ToString();
-            return "the isbn is " + isbn + " the title is " + title + "the author is " + author.ToString();
         }
     }
 }

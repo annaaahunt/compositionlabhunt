@@ -8,9 +8,9 @@ namespace compositionlabhunt
 
     public Author(string tempName, char tempGender, string tempEmail)
     {
-        this.name = name;
-        this.gender = gender;
-        this.email = email;
+        this.name = "Jeff";
+        this.gender = 'm';
+        this.email = "jslucas@cba.com";
     }
 
     public string GetName()
@@ -18,18 +18,20 @@ namespace compositionlabhunt
         return name;
     }
 
-    public string GetGender()
+    public char GetGender()
     {
-        return gender.ToString();
+        return gender;
     }
 
     public string GetEmail()
     {
         return email;
     }
-    public string ToString()
+    public override string ToString()
     {
-        return "The name is " + name + " the email is " + email + "the gender is " + gender;
+       return "name =" + name;
+       return "email= " + email;
+       return "gender= " + gender;
     }
     public void SetName(string tempName)
     {
