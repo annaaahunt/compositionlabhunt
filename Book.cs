@@ -10,7 +10,7 @@ namespace compositionlabhunt
         {
             this.isbn="12243";
             this.title= "My Book, Your Book";
-            this.author = myAuthor; //problem
+            author = tempAuthor; //problem
         }
 
         public string GetIsbn()
@@ -23,7 +23,7 @@ namespace compositionlabhunt
         }
         public string GetAuthor()
         {
-            return author.ToString();
+            return this.GetAuthor();
         }
         public void SetIsbn(string isbn)
         {
@@ -40,9 +40,7 @@ namespace compositionlabhunt
 
         public override string ToString()
         {
-            return "isbn= " + isbn;
-            return "title= " + title;
-            return author.ToString();
+            return"isbn= " + this.GetIsbn() + " title= " + this.GetTitle() + "author= " + this.GetAuthor();
         }
     }
 }
