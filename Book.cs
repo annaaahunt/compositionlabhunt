@@ -9,8 +9,8 @@ namespace compositionlabhunt
         public Book(string tempIsbn, string temptitle, Author tempAuthor)
         {
             this.isbn="12243";
-            this.title="My Book, Your Book";
-            this.author = author;
+            this.title= "My Book, Your Book";
+            this.author = myAuthor; //problem
         }
 
         public string GetIsbn()
