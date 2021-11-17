@@ -1,3 +1,4 @@
+using System;
 namespace compositionlabhunt
 {
     public class Author
@@ -29,13 +30,11 @@ namespace compositionlabhunt
     }
     public override string ToString()
     {
-       return "name =" + name;
-       return "email= " + email;
-       return "gender= " + gender;
+       return "name= " + this.GetName() + " gender= " + this.GetGender() + " email= " + this.GetEmail();
     }
     public void SetName(string tempName)
     {
-        this.name = name;
+        this.name = tempName;
     }
     public void SetGender(char gender)
     {
