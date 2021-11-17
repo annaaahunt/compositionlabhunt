@@ -26,22 +26,22 @@ namespace compositionlabhunt
         {
             return this.GetAuthor();
         }
-        public void SetIsbn(string isbn)
+        public void SetIsbn(string tempIsbn)
         {
-            this.isbn = isbn;
+            this.isbn = tempIsbn;
         }
-        public void SetTitle(string title)
+        public void SetTitle(string tempTitle)
         {
-            this.title = title;
+            this.title = tempTitle;
         }
-        public void SetAuthor()
+        public void SetAuthor(Author tempAuthor)
         {
-            SetAuthor();
+            author = tempAuthor;
         }
 
         public override string ToString()
         {
-            return"isbn= " + this.GetIsbn() + " title= " + this.GetTitle() + " author= " + this.GetAuthor();
+            return"isbn= " + this.GetIsbn() + " title= " + this.GetTitle() + " author= " + this.author.ToString();
         }
     }
 }

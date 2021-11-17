@@ -36,13 +36,13 @@ namespace compositionlabhunt
     {
         this.name = tempName;
     }
-    public void SetGender(char gender)
+    public void SetGender(char tempGender)
     {
-        this.gender = gender;
+        this.gender = tempGender;
     }
-    public void SetEmail(string email)
+    public void SetEmail(string tempEmail)
     {
-        this.email = email;
+        this.email = tempEmail;
     }
     }
 }
