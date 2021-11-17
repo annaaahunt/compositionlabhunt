@@ -15,7 +15,8 @@ namespace compositionlabhunt
             Console.WriteLine(myBook.GetAuthor().ToString());
 
             Book yourBook = new Book("4321", "The Phantom Book", new Author("Jamie", 'f', "jamie@mail.com"));
-            yourBook.GetAuthor().SetEmail("jamie@crimson.ua.edu");
+            myAuthor.SetEmail("jamie@crimson.ua.edu");
+            Console.WriteLine(yourBook.ToString());
         }
     }
 }

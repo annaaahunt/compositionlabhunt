@@ -8,9 +8,9 @@ namespace compositionlabhunt
 
     public Author(string tempName, char tempGender, string tempEmail)
     {
-        this.name = "Jeff";
-        this.gender = 'm';
-        this.email = "jslucas@cba.com";
+        this.name = tempName;
+        this.gender = tempGender;
+        this.email = tempEmail;
     }
 
     public string GetName()

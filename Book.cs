@@ -6,11 +6,11 @@ namespace compositionlabhunt
         private string title;
         private Author author; 
 
-        public Book(string tempIsbn, string temptitle, Author tempAuthor)
+        public Book(string tempIsbn, string tempTitle, Author tempAuthor)
         {
-            this.isbn="12243";
-            this.title= "My Book, Your Book";
-            author = tempAuthor; //problem
+            this.isbn= tempIsbn;
+            this.title= tempTitle;
+            author = tempAuthor; 
         }
 
         public string GetIsbn()
